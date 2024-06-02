@@ -1,10 +1,12 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@openlabs/ui'
 import { FAQs } from '@/utils/constants'
 import Title from '@/components/title'
+import Menu from '@/components/navbar'
 
 export default function PageFAQ() {
   return (
     <>
+      <Menu />
       <section className="w-full py-12 md:py-24 lg:py-32 bg-default">
         <div className="container px-4 md:px-6 mx-auto">
           <div className="mx-auto max-w-3xl space-y-4 text-center">

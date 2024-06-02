@@ -1,10 +1,10 @@
 import { DocsLayout } from 'fumadocs-ui/layout'
 import type { ReactNode } from 'react'
-import { pageTree } from '@/app/source'
+import { layoutOptions } from '@/app/layout.config'
 
 export default function RootDocsLayout({ children }: { children: ReactNode }) {
   return (
-    <DocsLayout tree={pageTree} nav={{ enabled: false }}>
+    <DocsLayout {...layoutOptions}>
       {children}
     </DocsLayout>
   )
