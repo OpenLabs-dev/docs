@@ -1,6 +1,3 @@
-import { Button } from '@openlabs/ui'
-import Link from 'next/link'
-
 export default function HomePage() {
   return (
     <main className="flex h-screen flex-col justify-center text-center">
