@@ -10,6 +10,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fontsource-variable/onest": "^5.0.4",
     "@openlabs/theme": "^0.1.0",
     "@openlabs/ui": "^0.1.0",
     "@radix-ui/react-navigation-menu": "^1.1.4",
