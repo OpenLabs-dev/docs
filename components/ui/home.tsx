@@ -14,7 +14,7 @@ export default function Home() {
         </p>
         <div className="space-x-4 mt-4">
           <Button asChild color="primary" size="lg" className="bg-default hover:bg-default/80 text-foreground" rippleColor="light">
-            <Link href="/docs">Get Started</Link>
+            <Link href="/docs/ui">Get Started</Link>
           </Button>
           <Button asChild color="ghost" size="lg" className="border shadow border-default hover:bg-default/50">
             <Link href="/https://github.com/OpenLabs-dev" target="_blank">Github</Link>

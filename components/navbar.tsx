@@ -2,7 +2,6 @@
 import { Button } from '@openlabs/ui'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { FileWarning } from 'lucide-react'
 import { DarkMode } from './dark-mode'
 import { Icons } from './icons'
 import { NavigationMenuDemo } from './options'
@@ -14,7 +13,6 @@ export default function Menu() {
       {pathname.startsWith('/docs') && (
         <aside className="bg-yellow-600 py-1">
           <small className="text-white font-medium text-center block text-base">
-            <FileWarning />
             The documentation is still in progress. Some sections may be incomplete or missing.
           </small>
         </aside>
