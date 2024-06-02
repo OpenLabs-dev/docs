@@ -25,7 +25,7 @@ export default function Menu() {
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-x-1">
               <Button asChild color="ghost" size="icon">
-                <Link href="https://github.com/Open-Lab-dev">
+                <Link href="https://github.com/OpenLabs-dev">
                   <Icons.GitHub className="size-6" />
                 </Link>
               </Button>
