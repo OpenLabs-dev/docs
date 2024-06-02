@@ -8,7 +8,7 @@ export const layoutOptions: Omit<DocsLayoutProps, 'children'> = {
     transparentMode: 'top',
     title: <Title />,
     url: '/docs/ui',
-    githubUrl: 'https://github.com/OpenLabs/openui',
+    githubUrl: 'https://github.com/OpenLabs-dev/openui',
   },
   links: [
     {
