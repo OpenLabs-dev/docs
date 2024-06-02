@@ -1,30 +1,39 @@
 {
-  "name": "storage",
-  "version": "0.0.0",
+  "name": "@openlabs/storage",
+  "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@9.1.4",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
+    "lint": "eslint . --fix",
     "start": "next start"
   },
   "dependencies": {
+    "@openlabs/theme": "^0.1.0",
+    "@openlabs/ui": "^0.1.0",
+    "@radix-ui/react-navigation-menu": "^1.1.4",
+    "class-variance-authority": "^0.7.0",
     "fumadocs-core": "^11.3.1",
     "fumadocs-mdx": "^8.2.26",
     "fumadocs-ui": "^11.3.1",
     "lucide-react": "^0.381.0",
     "next": "^14.2.3",
+    "next-themes": "^0.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^2.19.2",
     "@types/mdx": "^2.0.13",
     "@types/node": "20.13.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.4.19",
+    "eslint": "8.57.0",
+    "eslint-plugin-format": "^0.1.1",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
     "typescript": "^5.4.5"
-  },
-  "packageManager": "pnpm@9.1.4+sha512.9df9cf27c91715646c7d675d1c9c8e41f6fce88246f1318c1aa6a1ed1aeb3c4f032fcdf4ba63cc69c4fe6d634279176b5358727d8f2cc1e65b65f43ce2f8bfb0"
+  }
 }
