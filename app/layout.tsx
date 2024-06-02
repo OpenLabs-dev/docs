@@ -1,4 +1,5 @@
 import './global.css'
+import '@fontsource-variable/onest'
 import { RootProvider } from 'fumadocs-ui/provider'
 import type { ReactNode } from 'react'
 import Menu from '@/components/navbar'

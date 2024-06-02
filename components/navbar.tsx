@@ -17,7 +17,7 @@ export default function Menu() {
           </small>
         </aside>
       )}
-      <nav className="block w-full max-w-full px-4 py-2 z-50 backdrop-blur-lg bg-opacity-50 sticky top-0 shadow-medium h-max bg-background lg:px-6 lg:py-4 backdrop-saturate-150 inset-x-0">
+      <nav className="block w-full max-w-full px-4 py-2 z-50 backdrop-blur-lg bg-opacity-50 sticky top-0 shadow-small h-max bg-background lg:px-6 lg:py-4 backdrop-saturate-150 inset-x-0">
         <div className="flex items-center gap-x-6 justify-between">
           <div className="flex items-center gap-x-8">
             <Link
