@@ -19,7 +19,7 @@ export default function ExploreDocs() {
         </div>
         <div className="flex flex-col gap-2 min-[400px]:flex-row lg:justify-end">
           <Button asChild className="bg-default hover:bg-default/80 text-foreground" ripple>
-            <Link href="/docs/getting-started">Explore Documentation</Link>
+            <Link href="/docs/ui">Explore Documentation</Link>
           </Button>
         </div>
       </div>

@@ -15,37 +15,37 @@ const cards = [
     Icon: KeyIcon,
     title: 'Buttons',
     description: 'Customizable buttons with various styles and sizes.',
-    path: '/docs/components/button',
+    path: '/docs/ui/components/button',
   },
   {
     Icon: FileInputIcon,
     title: 'Inputs',
     description: 'Accessible and stylish form inputs.',
-    path: '/docs/components/input',
+    path: '/docs/ui/components/input',
   },
   {
     Icon: CreditCardIcon,
     title: 'Cards',
     description: 'Versatile card components for displaying content.',
-    path: '/docs/components/card',
+    path: '/docs/ui/components/card',
   },
   {
     Icon: MenuIcon,
     title: 'Dropdowns',
     description: 'Accessible and customizable dropdown menus.',
-    path: '/docs/components/dropdown',
+    path: '/docs/ui/components/dropdown',
   },
   {
     Icon: NavigationIcon,
     title: 'Navigation',
     description: ' Intuitive navigation components for your app.',
-    path: '/docs/components/sheet',
+    path: '/docs/ui/components/sheet',
   },
   {
     Icon: MinimizeIcon,
     title: 'Modals',
     description: 'Lightweight and responsive modal components.',
-    path: '/docs/components/dialog',
+    path: '/docs/ui/components/dialog',
   },
 ]
 
