@@ -11,7 +11,7 @@ import {
 } from 'fumadocs-ui/components/codeblock'
 import type { ReactNode } from 'react'
 import { Popup, PopupContent, PopupTrigger } from 'fumadocs-ui/twoslash/popup'
-import { cn } from '@openlabs/theme'
+import { cn } from '@openlabs/ui/tailwind'
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {

@@ -8,4 +8,20 @@
     scroll-behavior: smooth;
     font-family: 'Onest Variable', sans-serif;
   }
+
+  @keyframes moveStars {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 0 -100%;
+    }
+  }
+  .bg-stars {
+    background-image: url('/stars.svg');
+    background-repeat: repeat-y;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    animation: moveStars 24s linear infinite;
+  }
 }

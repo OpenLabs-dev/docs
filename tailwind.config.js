@@ -1,4 +1,4 @@
-import { openui } from '@openlabs/theme'
+import { openui } from '@openlabs/ui/tailwind'
 import { createPreset } from 'fumadocs-ui/tailwind-plugin'
 
 /** @type {import('tailwindcss').Config} */
@@ -9,7 +9,7 @@ export default {
     './content/**/*.{md,mdx}',
     './mdx-components.{ts,tsx}',
     './node_modules/fumadocs-ui/dist/**/*.js',
-    './node_modules/@openlabs/theme/dist/**/*.{js,ts,tsx,jsx}',
+    './node_modules/@openlabs/ui/dist/**/*.{js,ts,tsx,mdx}',
   ],
   presets: [createPreset()],
   plugins: [openui()],

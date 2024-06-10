@@ -1,5 +1,5 @@
 import React from 'react'
-import { cn } from '@openlabs/theme'
+import { cn } from '@openlabs/ui/tailwind'
 
 export interface Comp extends HTMLHeadingElement {}
 export interface Props extends React.HTMLAttributes<HTMLHeadingElement> {}
