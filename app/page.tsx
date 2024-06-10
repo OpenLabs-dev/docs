@@ -47,7 +47,7 @@ export default function HomePage() {
           <h2 className="tracking-tight dark:text-white lg:text-5xl text-gradient text-4xl sm:text-5xl md:text-6xl font-semibold inline-block">Our values.</h2>
         </div>
         <div className="p-10">
-          <div className="grid grid-cols-1 xl:grid-cols-3 gap-8 sm:grid-cols-1 md:grid-cols-3 lg:gap-24">
+          <div className="grid grid-cols-1 xl:grid-cols-3 gap-8 sm:grid-cols-1 md:grid-cols-3">
             {ourValues.map((value, index) => (
               <Card key={index} border="sm">
                 <CardHeader>
