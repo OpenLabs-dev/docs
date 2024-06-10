@@ -3,7 +3,7 @@
 import * as React from 'react'
 import Link from 'next/link'
 
-import { cn } from '@openlabs/theme'
+import { cn } from '@openlabs/ui/tailwind'
 import { FlaskConical } from 'lucide-react'
 import {
   NavigationMenu,
@@ -82,7 +82,7 @@ export function NavigationMenuDemo() {
                 </NavigationMenuLink>
               </li>
               <ListItem href="/ui" title="Open UI">
-                Open UI is a design system built Shadcn UI and Tailwind CSS.
+                Open UI is a design system built Radix UI and Tailwind CSS.
               </ListItem>
             </ul>
           </NavigationMenuContent>

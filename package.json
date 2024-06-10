@@ -1,5 +1,5 @@
 {
-  "name": "@openlabs/storage",
+  "name": "@openlabs/docs",
   "version": "0.1.0",
   "private": true,
   "packageManager": "pnpm@9.1.4",
@@ -11,8 +11,7 @@
   },
   "dependencies": {
     "@fontsource-variable/onest": "^5.0.4",
-    "@openlabs/theme": "^0.1.0",
-    "@openlabs/ui": "^0.1.0",
+    "@openlabs/ui": "^0.2.3",
     "@radix-ui/react-navigation-menu": "^1.1.4",
     "class-variance-authority": "^0.7.0",
     "fumadocs-core": "^11.3.1",

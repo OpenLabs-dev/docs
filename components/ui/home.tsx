@@ -7,7 +7,7 @@ export default function Home() {
       <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center">
         <Badge color="none" outline="success">Open UI is available 🎉</Badge>
         <h1 className="text-4xl md:text-5xl font-bold text-center dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-b dark:from-neutral-50 dark:to-neutral-400 dark:bg-opacity-50">
-          Open UI. A modern design system built with Shadcn UI and Tailwind CSS.
+          Open UI. A modern design system built with Radix UI and Tailwind CSS.
         </h1>
         <p className="mt-4 font-normal text-base max-w-lg text-center mx-auto">
           Open UI is an open source design system with a completely cutting-edge system. Fully customizable and modifiable you will make UI development much faster with fully stylized components.

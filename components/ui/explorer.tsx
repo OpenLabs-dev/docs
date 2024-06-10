@@ -1,6 +1,6 @@
 import { Button } from '@openlabs/ui'
 import Link from 'next/link'
-import { cn } from '@openlabs/theme'
+import { cn } from '@openlabs/ui/tailwind'
 import Title from '../title'
 
 export default function ExploreDocs() {

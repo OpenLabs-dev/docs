@@ -3,9 +3,7 @@ import { DocsBody, DocsPage } from 'fumadocs-ui/page'
 import { notFound } from 'next/navigation'
 import { getPage, getPages } from '@/app/source'
 
-export default async function Page({
-  params,
-}: {
+export default async function Page({ params }: {
   params: { slug?: string[] }
 }) {
   const page = getPage(params.slug)
