@@ -7,33 +7,34 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "eslint . --fix",
+    "clean": "pnpx rimraf .next pnpm-lock.yaml node_modules",
     "start": "next start"
   },
   "dependencies": {
     "@fontsource-variable/onest": "^5.0.4",
-    "@openlabs/ui": "^0.2.3",
+    "@openlabs/ui": "^0.3.0",
     "@radix-ui/react-navigation-menu": "^1.1.4",
     "class-variance-authority": "^0.7.0",
-    "fumadocs-core": "^11.3.1",
-    "fumadocs-mdx": "^8.2.26",
+    "fumadocs-core": "^12.0.3",
+    "fumadocs-mdx": "^8.2.31",
     "fumadocs-ui": "^11.3.1",
-    "lucide-react": "^0.381.0",
-    "next": "^14.2.3",
+    "lucide-react": "^0.394.0",
+    "next": "^14.2.4",
     "next-themes": "^0.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.19.2",
+    "@antfu/eslint-config": "^2.21.1",
     "@types/mdx": "^2.0.13",
-    "@types/node": "20.13.0",
+    "@types/node": "20.14.2",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.4.19",
     "eslint": "8.57.0",
     "eslint-plugin-format": "^0.1.1",
     "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.3",
+    "tailwindcss": "^3.4.4",
     "typescript": "^5.4.5"
   }
 }
